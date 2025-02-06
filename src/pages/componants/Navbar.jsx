@@ -1,6 +1,8 @@
 
-import { Link } from 'react-router-dom';
 
+import { Link } from 'react-router-dom';
+import github from '../../assets/icons8-github-24 (1).png'
+import linkedin from '../../assets/icons8-linkedin-48 (2).png'
 const Navbar = () => {
 
 
@@ -12,7 +14,7 @@ const Navbar = () => {
    <li><Link className='uppercase'>contact me</Link></li>
   </>
   return (
-    <div className="navbar bg-black text-white font-semibold">
+    <div className="navbar md:px-12 z-50 fixed font-semibold  text-white bg-transparent">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,8 +45,15 @@ const Navbar = () => {
       
       </ul>
     </div>
-    <div className="navbar-end">
-      <a className="btn upeercase">Resume</a>
+    <div className="navbar-end flex gap-4">
+      <a className="">
+     <img className='w-10   border-2' src={linkedin} alt="" />
+    
+      </a>
+      <a className="">
+    <img className='w-10   border-2' src={github} alt="" />
+    
+      </a>
     </div>
   </div>
   );
