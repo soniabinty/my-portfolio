@@ -1,8 +1,8 @@
 
 
 import { Link } from 'react-router-dom';
-import github from '../../assets/icons8-github-24 (1).png'
-import linkedin from '../../assets/icons8-linkedin-48 (2).png'
+import github from '../../assets/img/icons8-github-24 (1).png'
+import linkedin from '../../assets/img/icons8-linkedin-48 (2).png'
 const Navbar = () => {
 
 
@@ -14,7 +14,7 @@ const Navbar = () => {
    <li><Link className='uppercase'>contact me</Link></li>
   </>
   return (
-    <div className="navbar md:px-12 z-50 fixed font-semibold  text-white bg-transparent">
+    <div className="navbar md:px-12 z-50 fixed opacity-70 font-semibold  text-white bg-black">
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

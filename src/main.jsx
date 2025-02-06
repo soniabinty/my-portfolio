@@ -9,18 +9,13 @@ import {
 } from "react-router-dom";
 import "./index.css";
 import Home from './pages/Home';
-import Banner from './pages/componants/Banner';
+
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
-    children:[
-      {
-        path: "/",
-        element: <Banner></Banner>,
-      }
-    ]
+  
   },
 ]);
 

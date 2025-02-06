@@ -1,6 +1,6 @@
 
 import { Typewriter } from 'react-simple-typewriter'
-import img from '../../assets/profileback.jpg'
+import img from '../../assets/img/profileback.jpg'
 import profileAnimation from '../../assets/lottie/Animation - 1738801018928.json'
 import { FaArrowDown } from 'react-icons/fa6';
 import Lottie from 'lottie-react';
