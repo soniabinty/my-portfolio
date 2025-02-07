@@ -1,9 +1,9 @@
 
 import { Typewriter } from 'react-simple-typewriter'
-import img from '../../assets/img/profileback.jpg'
-import profileAnimation from '../../assets/lottie/Animation - 1738801018928.json'
+
+import profile from '../../assets/img/binty.png'
 import { FaArrowDown } from 'react-icons/fa6';
-import Lottie from 'lottie-react';
+
 const Banner = () => {
 
   const handleType = (count) => {
@@ -15,24 +15,17 @@ const Banner = () => {
     console.log(`Done after 5 loops!`)
   }
   return (
-    <div
-    className=" hero   text-white bg-cover h-[700px]"
-    style={{
-    
-      backgroundImage: `url(${img})`,
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-    }}>
+  
 
-<div className='z-10 bg-black opacity-70  w-full h-[700px] mx-auto pt-12'>
-<div className='md:flex items-center  p-10 mt-12 '>
-<div className='flex-1 space-y-4 p-12  '>
+<div className=' bg-slate-900 min-h-screen  w-full  mx-auto md:pt-12'>
+<div className='md:flex items-center md:px-6 lg::px-12 max-sm:p-6  md:mt-12 '>
+<div className='flex-1 space-y-4 md:px-12 py-8 max-sm:mt-8 '>
 
-  <h1 className='text-3xl font-bold text-white'>Greetings!</h1>
-  <img src="https://i.ibb.co.com/HfZj6ctH/divider-Cc-YM6e-To.png" alt="" />
+  <h1 className='md:text-3xl text-xl font-bold text-white'>Greetings!</h1>
+  <img className='max-sm:w-30' src="https://i.ibb.co.com/HfZj6ctH/divider-Cc-YM6e-To.png" alt="" />
               <h1 style={{  margin: 'auto 0', fontWeight: 'normal' }}>
-       <span className='text-6xl  font-bold text-white'>Sonia  Binty</span> 
-        <br />  <span className=' text-5xl font-bold '>I am </span>
+       <span className='text-3xl md:text-6xl  font-bold text-white'>Sonia  Binty</span> 
+        <br />  <span className='text-3xl md:text-5xl text-white font-bold '>I am </span>
         {' '}
         <span className='text-3xl md:text-4xl text-fuchsia-600' style={{  fontWeight: 'bold' }}>
           {/* Style will be inherited from the parent element */}
@@ -62,9 +55,16 @@ Contact me
    
       </div>
 
-      <div className='flex-1  mt-5'>
+      <div className='flex-1  mt-3 relative max-sm:mb-6'>
+        <div className=' p-4 border-8 rotate-45  border-l-slate-900   shadow-2xl mx-auto shadow-fuchsia-400 border-fuchsia-600 w-[280px] h-[280px]     md:w-[380px] md:h-[380px] rounded-full  '>
+
+
+<div className='border-fuchsia-400 border-4 mx-auto w-[250px] h-[250px]  md:w-[350px] md:h-[350px] rounded-full '>
+
+</div>
+        </div>
  
-    <Lottie className='w-[420px] mx-auto pl-8 ' animationData={profileAnimation}  />
+  <img className=' md:w-[480px] w-[300px] absolute md:-top-6  -top-5' src={profile} alt="" />
  
 
       </div>
@@ -76,8 +76,7 @@ Contact me
 </div>
 
      
-      
-    </div>
+  
   );
 };
 

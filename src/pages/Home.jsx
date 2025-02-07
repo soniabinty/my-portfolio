@@ -2,6 +2,7 @@
 import Navbar from "./componants/Navbar";
 import Banner from "./componants/Banner";
 import About from "./componants/About";
+import Skill from "./componants/Skill";
 
 
 const Home = () => {
@@ -10,6 +11,7 @@ const Home = () => {
       <Navbar></Navbar>
       <Banner></Banner>
       <About></About>
+      <Skill></Skill>
      
     </div>
   );

@@ -10,11 +10,11 @@ const Navbar = () => {
    <li><Link className='uppercase'>About me</Link></li>
    <li><Link className='uppercase'>skills</Link></li>
    <li><Link className='uppercase'>projects</Link></li>
-   <li><Link className='uppercase'>blog</Link></li>
+
    <li><Link className='uppercase'>contact me</Link></li>
   </>
   return (
-    <div className="navbar md:px-12 z-50 fixed opacity-70 font-semibold  text-white bg-black">
+    <div className="navbar md:px-12 z-50 fixed font-semibold bg-black opacity-70 text-white" >
     <div className="navbar-start">
       <div className="dropdown">
         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
