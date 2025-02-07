@@ -1,0 +1,35 @@
+[
+  {
+    "id": "taskperks",
+    "name": "TaskPerks",
+    "image": "https://i.ibb.co.com/rGCyjjzV/ttfstfdc.png",
+    "description": "A task management and reward system for workers and buyers.",
+    "techStack": ["React.js", "Tailwind CSS", "Node.js", "MongoDB","Tailwind CSS", "Stripe"],
+    "liveLink": "https://task-perks.web.app/",
+    "github": "https://github.com/soniabinty/taskperks-client",
+    "challenges": "Integrating Stripe payments and optimizing database queries.",
+    "futurePlans": "Adding AI-powered task recommendations and improved analytics."
+  },
+  {
+    "id": "servewish",
+    "name": "ServeWish",
+    "image": "https://i.ibb.co.com/j93R8XRW/Screenshot-7.png",
+    "description": "A platform that connects volunteers with community service opportunities.",
+    "techStack": ["Node.js", "MongoDB", "Tailwind CSS", "Firebase", "Express.js"],
+    "liveLink": "https://servewish-d87ca.web.app/",
+    "github": "https://github.com/soniabinty/servewish",
+    "challenges": "Real-time updates for volunteer events and managing authentication.",
+    "futurePlans": "Enhancing event tracking, adding AI-driven volunteer matching."
+  },
+  {
+    "id": "ecoventure",
+    "name": "EcoVenture",
+    "image": "https://i.ibb.co.com/1fkmFCFz/jhgjh.png",
+    "description": "An eco-friendly travel planner promoting sustainable tourism.",
+    "techStack": ["React.js", "Firebase","Tailwind CSS"],
+    "liveLink": "https://eco-venture-5e197.web.app/",
+    "github": "https://github.com/soniabinty/eco-venture",
+    "challenges": "Integrating real-time location data and optimizing travel suggestions.",
+    "futurePlans": "Implementing carbon footprint tracking and AI-based eco-tourism guides."
+  }
+]

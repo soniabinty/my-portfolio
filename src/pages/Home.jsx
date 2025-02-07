@@ -4,6 +4,7 @@ import Banner from "./componants/Banner";
 import About from "./componants/About";
 import Skill from "./componants/Skill";
 import Qualification from "./componants/Qualification";
+import Projects from "./componants/Projects";
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
       <About></About>
       <Skill></Skill>
       <Qualification></Qualification>
+      <Projects></Projects>
      
     </div>
   );
